@@ -1,0 +1,24 @@
+vsim -gui work.lab4step2
+# vsim -gui work.lab4step2 
+# Start time: 14:39:13 on Feb 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.lab4step2(fast)
+do lab4step2.do
+do lab4step2.do
+quit -sim
+# End time: 14:39:54 on Feb 20,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 1
+vsim -gui work.lab4step2
+# vsim -gui work.lab4step2 
+# Start time: 14:40:04 on Feb 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.lab4step2(fast)
+add wave -position insertpoint  \
+sim:/lab4step2/P \
+sim:/lab4step2/H \
+sim:/lab4step2/T \
+sim:/lab4step2/M \
+sim:/lab4step2/AC
+do lab4step2.do
+# End time: 15:21:18 on Feb 20,2024, Elapsed time: 0:41:14
+# Errors: 0, Warnings: 1

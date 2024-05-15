@@ -1,0 +1,110 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2023.2/examples
+T_opt
+!s110 1711137741
+VU6zY7bR4HcWQdAgz2^7?@2
+Z2 04 7 4 work add_sub fast 0
+=1-b07b252d0549-65fde3cc-260-750
+R0
+Z3 !s12b OEM100
+Z4 !s124 OEM100
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.2;77
+R1
+T_opt1
+!s110 1712003275
+V1`liQJI?nB:fTZG]W?]g:2
+R2
+=1-7486e2289b32-660b18ca-25e-320c
+R0
+R3
+R4
+R5
+R6
+n@_opt1
+R7
+vadd_sub
+2U:/spring2024/CPRE281/lab7/add_sub.v
+Z8 !s110 1712003205
+!i10b 1
+!s100 TK]O8oeSz79;AFbbE1:MT2
+IF=DRhVXKV]eXLZGh1oaod0
+Z9 dU:/spring2024/CPRE281/lab7
+w1711137348
+8U:/spring2024/CPRE281/lab7/add_sub.v
+FU:/spring2024/CPRE281/lab7/add_sub.v
+!i122 3
+L0 20 71
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2023.2;77
+r1
+!s85 0
+31
+!s108 1712003203.000000
+!s107 U:/spring2024/CPRE281/lab7/add_sub.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab7/add_sub.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vadder_4bit
+2U:/spring2024/CPRE281/lab7/adder_4bit.v
+R8
+!i10b 1
+!s100 H_z5PI4cb:6E6`0Y1:j0_2
+Ib_]ZHAbHbKzMYiXbGUMNe3
+R9
+w1711137280
+8U:/spring2024/CPRE281/lab7/adder_4bit.v
+FU:/spring2024/CPRE281/lab7/adder_4bit.v
+!i122 4
+L0 20 80
+R10
+R11
+r1
+!s85 0
+31
+Z13 !s108 1712003205.000000
+!s107 U:/spring2024/CPRE281/lab7/adder_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab7/adder_4bit.v|
+!i113 0
+R12
+R6
+vFA
+2U:/spring2024/CPRE281/lab7/FA.v
+R8
+!i10b 1
+!s100 D_5KOKjJI;04PT<Of<o8E0
+If<?nYoVMDGFzofVgQeE9K2
+R9
+w1711134627
+8U:/spring2024/CPRE281/lab7/FA.v
+FU:/spring2024/CPRE281/lab7/FA.v
+!i122 5
+L0 1 9
+R10
+R11
+r1
+!s85 0
+31
+R13
+!s107 U:/spring2024/CPRE281/lab7/FA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab7/FA.v|
+!i113 0
+R12
+R6
+n@f@a

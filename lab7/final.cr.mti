@@ -1,0 +1,22 @@
+U:/spring2024/CPRE281/lab7/FA.v {1 {vlog -work work -vopt -stats=none U:/spring2024/CPRE281/lab7/FA.v
+QuestaSim-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} U:/spring2024/CPRE281/lab7/add_sub.v {1 {vlog -work work -vopt -stats=none U:/spring2024/CPRE281/lab7/add_sub.v
+QuestaSim-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module add_sub
+
+Top level modules:
+	add_sub
+
+} {} {}} U:/spring2024/CPRE281/lab7/adder_4bit.v {1 {vlog -work work -vopt -stats=none U:/spring2024/CPRE281/lab7/adder_4bit.v
+QuestaSim-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module adder_4bit
+
+Top level modules:
+	adder_4bit
+
+} {} {}}

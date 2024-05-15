@@ -1,0 +1,17 @@
+vsim -gui work.lab10step2a
+# vsim -gui work.lab10step2a 
+# Start time: 12:27:40 on Apr 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step2a(fast)
+add wave -position insertpoint  \
+sim:/lab10step2a/Clk \
+sim:/lab10step2a/Enable \
+sim:/lab10step2a/CLRN \
+sim:/lab10step2a/Q0 \
+sim:/lab10step2a/Q1 \
+sim:/lab10step2a/Q2 \
+sim:/lab10step2a/Q3 \
+sim:/lab10step2a/Z
+do lab10counter.do
+# End time: 12:40:57 on Apr 19,2024, Elapsed time: 0:13:17
+# Errors: 0, Warnings: 1

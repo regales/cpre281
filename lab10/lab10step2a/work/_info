@@ -1,0 +1,67 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+Z1 !s12c _opt
+R0
+R1
+R0
+R1
+R0
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/questasim64_2023.2/examples
+T_opt
+!s110 1713313252
+VmoS7m5YiZe9O8XkdAYRYH3
+Z3 04 11 4 work lab10step2a fast 0
+=1-b07b25279641-661f15e4-a8-b84
+R0
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.2;77
+R2
+T_opt1
+!s110 1713547661
+VQ3PIzeIYnj:So0m8bcoMg1
+R3
+=1-b07b252d0549-6622a98d-fb-3330
+R0
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+vlab10step2a
+2U:/CPRE281/lab10/lab10step2a/lab10step2a.v
+!s110 1713313242
+!i10b 1
+!s100 @^ao:WN2P^oz8dg2iH@=F0
+IXUPKD8]j6N;jnn?[ITiOA1
+dU:/CPRE281/lab10/lab10step2a
+w1713313221
+8U:/CPRE281/lab10/lab10step2a/lab10step2a.v
+FU:/CPRE281/lab10/lab10step2a/lab10step2a.v
+!i122 2
+L0 20 130
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2023.2;77
+r1
+!s85 0
+31
+!s108 1713313242.000000
+!s107 U:/CPRE281/lab10/lab10step2a/lab10step2a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/lab10step2a/lab10step2a.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7

@@ -1,0 +1,15 @@
+vsim -gui work.lab10step1
+# vsim -gui work.lab10step1 
+# Start time: 16:12:17 on Apr 16,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab10step1(fast)
+add wave -position insertpoint  \
+sim:/lab10step1/CLK \
+sim:/lab10step1/IN \
+sim:/lab10step1/VCC \
+sim:/lab10step1/Q4 \
+sim:/lab10step1/Q1 \
+sim:/lab10step1/Q2 \
+sim:/lab10step1/Q3
+# End time: 16:12:30 on Apr 16,2024, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1

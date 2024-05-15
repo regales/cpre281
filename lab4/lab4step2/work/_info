@@ -1,0 +1,153 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+!s12c _opt2
+R1
+!s12c _opt1
+R1
+R0
+R1
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/questasim64_2023.2/examples
+T_opt
+!s110 1708378023
+V;W8KajG9S6671]_iFD?IR2
+Z3 04 11 4 work powersaving fast 0
+=1-7486e2289b32-65d3c7a7-4c-2c28
+R1
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.2;77
+R2
+T_opt1
+!s110 1708376881
+ViNAZL^XW@ha@TV@@eF_`D0
+Z9 04 9 4 work lab4step2 fast 0
+=1-7486e2289b32-65d3c330-226-2d30
+R1
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+R2
+T_opt2
+!s110 1708377153
+Ve7Gki98b4P8Y`VBS;4T[^1
+R9
+04 11 4 work multiplexer fast 0
+04 6 4 work normal fast 0
+R3
+=1-7486e2289b32-65d3c441-19b-6fc
+R1
+R4
+R5
+R6
+R7
+n@_opt2
+R8
+R2
+vlab4step2
+2U:/spring2024/CPRE281/lab4/lab4step2/lab4step2.v
+!s110 1708380484
+!i10b 1
+!s100 DN[?EYdd@5XIlV7Q?@GP01
+I>Vi]nlH:_0L4B<PGf1H?V2
+Z10 dU:/spring2024/CPRE281/lab4/lab4step2
+w1708378702
+8U:/spring2024/CPRE281/lab4/lab4step2/lab4step2.v
+FU:/spring2024/CPRE281/lab4/lab4step2/lab4step2.v
+!i122 23
+L0 20 44
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2023.2;77
+r1
+!s85 0
+31
+Z13 !s108 1708380484.000000
+!s107 U:/spring2024/CPRE281/lab4/lab4step2/lab4step2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab4/lab4step2/lab4step2.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+vmultiplexer
+2U:/spring2024/CPRE281/lab4/lab4step2/multiplexer.v
+Z15 !s110 1708380485
+!i10b 1
+!s100 QVe@?[kRfX72i4^z[6Ehk0
+I19SzYKE66oIIlK4NM[b4z2
+R10
+w1708376389
+8U:/spring2024/CPRE281/lab4/lab4step2/multiplexer.v
+FU:/spring2024/CPRE281/lab4/lab4step2/multiplexer.v
+!i122 24
+L0 1 11
+R11
+R12
+r1
+!s85 0
+31
+R13
+!s107 U:/spring2024/CPRE281/lab4/lab4step2/multiplexer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab4/lab4step2/multiplexer.v|
+!i113 0
+R14
+R7
+vnormal
+2U:/spring2024/CPRE281/lab4/lab4step2/normal.v
+R15
+!i10b 1
+!s100 X8JT;fL5KfYGLTKBYVhk01
+I`=UV<XJPgMYhZQ;Yk10zA1
+R10
+w1708376350
+8U:/spring2024/CPRE281/lab4/lab4step2/normal.v
+FU:/spring2024/CPRE281/lab4/lab4step2/normal.v
+!i122 25
+Z16 L0 1 10
+R11
+R12
+r1
+!s85 0
+31
+Z17 !s108 1708380485.000000
+!s107 U:/spring2024/CPRE281/lab4/lab4step2/normal.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab4/lab4step2/normal.v|
+!i113 0
+R14
+R7
+vpowersaving
+2U:/spring2024/CPRE281/lab4/lab4step2/powersaving.v
+!s110 1708380486
+!i10b 1
+!s100 =eRK[Nhl8PUcJ[g98R;he1
+IQjF_`CjGg[YY3FS70K^db3
+R10
+w1708376334
+8U:/spring2024/CPRE281/lab4/lab4step2/powersaving.v
+FU:/spring2024/CPRE281/lab4/lab4step2/powersaving.v
+!i122 26
+R16
+R11
+R12
+r1
+!s85 0
+31
+R17
+!s107 U:/spring2024/CPRE281/lab4/lab4step2/powersaving.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab4/lab4step2/powersaving.v|
+!i113 0
+R14
+R7

@@ -1,0 +1,204 @@
+m255
+K4
+z2
+Z0 !s12c _opt4
+Z1 !s99 nomlopt
+Z2 !s12c _opt
+R1
+R0
+R1
+!s12c _opt3
+R1
+!s12c _opt2
+R1
+!s12c _opt1
+R1
+R2
+R1
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 dC:/questasim64_2023.2/examples
+T_opt
+!s110 1712341690
+V`<on;LEjE2Oai>]_lk=f`0
+04 10 4 work lab9step1a fast 0
+=1-b07b252d0549-661042ba-17a-39f0
+R1
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.2;77
+R3
+T_opt1
+!s110 1712338775
+V14WiZV7h?2jBWV;YB2e1S0
+04 10 4 work lab9step1b fast 0
+=1-b07b252d0549-66103756-2b4-2e14
+R1
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+R3
+T_opt2
+!s110 1712339846
+V;h?FQ1CLm9gF:PJBa_TgJ1
+04 9 4 work lab9step2 fast 0
+=1-b07b252d0549-66103b85-2c6-3bd4
+R1
+R4
+R5
+R6
+R7
+n@_opt2
+R8
+R3
+T_opt3
+!s110 1712340941
+VdTS]M1^XeN`h]^FQidWVd1
+04 10 4 work lab9step3a fast 0
+=1-b07b252d0549-66103fcc-244-1688
+R1
+R4
+R5
+R6
+R7
+n@_opt3
+R8
+R3
+T_opt4
+!s110 1712342567
+VOU;LX_oT0_k6DL1b5Vz<60
+04 10 4 work lab9step3b fast 0
+=1-b07b252d0549-66104627-aa-3f0c
+R1
+R4
+R5
+R6
+R7
+n@_opt4
+R8
+vlab9step1a
+2U:/spring2024/CPRE281/lab9/lab9step1a.v
+!s110 1712341680
+!i10b 1
+!s100 h535X_f<^1WdeJ0ASQFOV2
+IoL?QOA>:E=cQP:SFU10i>0
+Z9 dU:/spring2024/CPRE281/lab9
+w1712338986
+8U:/spring2024/CPRE281/lab9/lab9step1a.v
+FU:/spring2024/CPRE281/lab9/lab9step1a.v
+!i122 6
+L0 20 27
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2023.2;77
+r1
+!s85 0
+31
+!s108 1712341679.000000
+!s107 U:/spring2024/CPRE281/lab9/lab9step1a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab9/lab9step1a.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+vlab9step1b
+2U:/spring2024/CPRE281/lab9/lab9step1b.v
+!s110 1712338765
+!i10b 1
+!s100 @[QTbMkE@5BW]PoUl^7881
+IX1DJ;ehHQmUSSe?iG_IMz3
+R9
+w1712338665
+8U:/spring2024/CPRE281/lab9/lab9step1b.v
+FU:/spring2024/CPRE281/lab9/lab9step1b.v
+!i122 2
+L0 20 33
+R10
+R11
+r1
+!s85 0
+31
+!s108 1712338765.000000
+!s107 U:/spring2024/CPRE281/lab9/lab9step1b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab9/lab9step1b.v|
+!i113 0
+R12
+R7
+vlab9step2
+2U:/spring2024/CPRE281/lab9/lab9step2.v
+!s110 1712339828
+!i10b 1
+!s100 `m?R:IB0XPgm4cVgmER5U1
+IBGGB[YPe>_5>lbaGeOGEN2
+R9
+w1712339662
+8U:/spring2024/CPRE281/lab9/lab9step2.v
+FU:/spring2024/CPRE281/lab9/lab9step2.v
+!i122 3
+L0 20 36
+R10
+R11
+r1
+!s85 0
+31
+!s108 1712339828.000000
+!s107 U:/spring2024/CPRE281/lab9/lab9step2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab9/lab9step2.v|
+!i113 0
+R12
+R7
+vlab9step3a
+2U:/spring2024/CPRE281/lab9/lab9step3a.v
+!s110 1712340929
+!i10b 1
+!s100 fU8[:d^YiB23Km0?0g5HW2
+ISa3[g[WO1Ke[_oYSi=?2[0
+R9
+w1712340802
+8U:/spring2024/CPRE281/lab9/lab9step3a.v
+FU:/spring2024/CPRE281/lab9/lab9step3a.v
+!i122 4
+L0 20 51
+R10
+R11
+r1
+!s85 0
+31
+!s108 1712340929.000000
+!s107 U:/spring2024/CPRE281/lab9/lab9step3a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab9/lab9step3a.v|
+!i113 0
+R12
+R7
+vlab9step3b
+2U:/spring2024/CPRE281/lab9/lab9step3b.v
+!s110 1712342558
+!i10b 1
+!s100 YKQU4;amNe8<7n^Fl^oFO1
+IkZocM234[iIXnQZ^hi0h93
+R9
+w1712342503
+8U:/spring2024/CPRE281/lab9/lab9step3b.v
+FU:/spring2024/CPRE281/lab9/lab9step3b.v
+!i122 7
+L0 20 39
+R10
+R11
+r1
+!s85 0
+31
+!s108 1712342558.000000
+!s107 U:/spring2024/CPRE281/lab9/lab9step3b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/spring2024/CPRE281/lab9/lab9step3b.v|
+!i113 0
+R12
+R7

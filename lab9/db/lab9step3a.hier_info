@@ -1,0 +1,10 @@
+|lab9step3a
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D => inst11.IN0
+D => inst9.IN1
+Clk => inst10.IN1
+Clk => inst9.IN0
+Clk => inst6.IN0
+QN <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DATAP0",
+					"strict" : false
+				},
+				{
+					"name" : "DATAQ0",
+					"strict" : false
+				},
+				{
+					"name" : "WA1",
+					"strict" : false
+				},
+				{
+					"name" : "WR",
+					"strict" : false
+				},
+				{
+					"name" : "WA2",
+					"strict" : false
+				},
+				{
+					"name" : "WA0",
+					"strict" : false
+				},
+				{
+					"name" : "RP0",
+					"strict" : false
+				},
+				{
+					"name" : "RP1",
+					"strict" : false
+				},
+				{
+					"name" : "RQ1",
+					"strict" : false
+				},
+				{
+					"name" : "RQ0",
+					"strict" : false
+				},
+				{
+					"name" : "LD_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

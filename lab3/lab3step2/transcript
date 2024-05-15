@@ -1,0 +1,13 @@
+vsim -gui work.lab3step2
+# vsim -gui work.lab3step2 
+# Start time: 12:48:00 on Feb 09,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab3step2(fast)
+add wave -position insertpoint  \
+sim:/lab3step2/Cabbage \
+sim:/lab3step2/Goat \
+sim:/lab3step2/Wolf \
+sim:/lab3step2/Alarm
+do basic-alarm.do
+# End time: 12:55:49 on Feb 09,2024, Elapsed time: 0:07:49
+# Errors: 0, Warnings: 1

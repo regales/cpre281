@@ -1,0 +1,18 @@
+vsim -gui work.lab8step2
+# vsim -gui work.lab8step2 
+# Start time: 17:19:48 on Apr 04,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.lab8step2(fast)
+add wave -position insertpoint  \
+sim:/lab8step2/X3 \
+sim:/lab8step2/X2 \
+sim:/lab8step2/X1 \
+sim:/lab8step2/X0 \
+sim:/lab8step2/XC1 \
+sim:/lab8step2/XC2 \
+sim:/lab8step2/XC3 \
+sim:/lab8step2/s \
+sim:/lab8step2/F
+do shifter.do
+# End time: 17:21:10 on Apr 04,2024, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 1

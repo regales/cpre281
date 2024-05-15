@@ -1,0 +1,14 @@
+vsim -gui work.lab4step1
+# vsim -gui work.lab4step1 
+# Start time: 14:40:30 on Feb 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab4step1(fast)
+add wave -position insertpoint  \
+sim:/lab4step1/Farmer \
+sim:/lab4step1/Cabbage \
+sim:/lab4step1/Goat \
+sim:/lab4step1/Wolf \
+sim:/lab4step1/Alarm
+do lab4step1.do
+# End time: 15:21:18 on Feb 20,2024, Elapsed time: 0:40:48
+# Errors: 0, Warnings: 1

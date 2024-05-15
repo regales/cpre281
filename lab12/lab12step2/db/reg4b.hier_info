@@ -1,0 +1,155 @@
+|reg4b
+OUT[0] <= register:inst4.out
+OUT[1] <= register:inst3.out
+OUT[2] <= register:inst2.out
+OUT[3] <= register:inst.out
+IN[0] => register:inst4.In
+IN[1] => register:inst3.In
+IN[2] => register:inst2.In
+IN[3] => register:inst.In
+Load => register:inst.Load
+Load => register:inst2.Load
+Load => register:inst3.Load
+Load => register:inst4.Load
+Clk => register:inst.Clk
+Clk => register:inst2.Clk
+Clk => register:inst3.Clk
+Clk => register:inst4.Clk
+Clear => register:inst.Clear
+Clear => register:inst2.Clear
+Clear => register:inst3.Clear
+Clear => register:inst4.Clear
+
+
+|reg4b|register:inst
+out <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clear => inst1.ACLR
+Clk => inst1.CLK
+Load => BUSMUX:inst.sel
+In => BUSMUX:inst.datab[0]
+
+
+|reg4b|register:inst|BUSMUX:inst
+dataa[0] => lpm_mux:$00000.data[0][0]
+datab[0] => lpm_mux:$00000.data[1][0]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+
+
+|reg4b|register:inst|BUSMUX:inst|lpm_mux:$00000
+data[0][0] => mux_7rc:auto_generated.data[0]
+data[1][0] => mux_7rc:auto_generated.data[1]
+sel[0] => mux_7rc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_7rc:auto_generated.result[0]
+
+
+|reg4b|register:inst|BUSMUX:inst|lpm_mux:$00000|mux_7rc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|reg4b|register:inst2
+out <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clear => inst1.ACLR
+Clk => inst1.CLK
+Load => BUSMUX:inst.sel
+In => BUSMUX:inst.datab[0]
+
+
+|reg4b|register:inst2|BUSMUX:inst
+dataa[0] => lpm_mux:$00000.data[0][0]
+datab[0] => lpm_mux:$00000.data[1][0]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+
+
+|reg4b|register:inst2|BUSMUX:inst|lpm_mux:$00000
+data[0][0] => mux_7rc:auto_generated.data[0]
+data[1][0] => mux_7rc:auto_generated.data[1]
+sel[0] => mux_7rc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_7rc:auto_generated.result[0]
+
+
+|reg4b|register:inst2|BUSMUX:inst|lpm_mux:$00000|mux_7rc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|reg4b|register:inst3
+out <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clear => inst1.ACLR
+Clk => inst1.CLK
+Load => BUSMUX:inst.sel
+In => BUSMUX:inst.datab[0]
+
+
+|reg4b|register:inst3|BUSMUX:inst
+dataa[0] => lpm_mux:$00000.data[0][0]
+datab[0] => lpm_mux:$00000.data[1][0]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+
+
+|reg4b|register:inst3|BUSMUX:inst|lpm_mux:$00000
+data[0][0] => mux_7rc:auto_generated.data[0]
+data[1][0] => mux_7rc:auto_generated.data[1]
+sel[0] => mux_7rc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_7rc:auto_generated.result[0]
+
+
+|reg4b|register:inst3|BUSMUX:inst|lpm_mux:$00000|mux_7rc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|reg4b|register:inst4
+out <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clear => inst1.ACLR
+Clk => inst1.CLK
+Load => BUSMUX:inst.sel
+In => BUSMUX:inst.datab[0]
+
+
+|reg4b|register:inst4|BUSMUX:inst
+dataa[0] => lpm_mux:$00000.data[0][0]
+datab[0] => lpm_mux:$00000.data[1][0]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+
+
+|reg4b|register:inst4|BUSMUX:inst|lpm_mux:$00000
+data[0][0] => mux_7rc:auto_generated.data[0]
+data[1][0] => mux_7rc:auto_generated.data[1]
+sel[0] => mux_7rc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_7rc:auto_generated.result[0]
+
+
+|reg4b|register:inst4|BUSMUX:inst|lpm_mux:$00000|mux_7rc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+

@@ -1,0 +1,29 @@
+vsim -gui work.add_sub
+# vsim -gui work.add_sub 
+# Start time: 15:41:14 on Apr 01,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.add_sub(fast)
+add wave -position insertpoint  \
+sim:/add_sub/X3 \
+sim:/add_sub/Y3 \
+sim:/add_sub/X2 \
+sim:/add_sub/Y2 \
+sim:/add_sub/X1 \
+sim:/add_sub/Y1 \
+sim:/add_sub/X0 \
+sim:/add_sub/Y0 \
+sim:/add_sub/Control \
+sim:/add_sub/Overflow \
+sim:/add_sub/Cout \
+sim:/add_sub/S3 \
+sim:/add_sub/S2 \
+sim:/add_sub/S1 \
+sim:/add_sub/S0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ryanchin  Hostname: CO2042-17  ProcessID: 1872
+#           Attempting to use alternate WLF file "./wlftsv54i0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsv54i0
+do final.do
+# End time: 15:46:05 on Apr 01,2024, Elapsed time: 0:04:51
+# Errors: 0, Warnings: 3

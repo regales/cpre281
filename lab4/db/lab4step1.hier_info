@@ -1,0 +1,8 @@
+|lab4step1
+Alarm << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Farmer => Decoder0.IN0
+Cabbage => Decoder0.IN1
+Goat => Decoder0.IN2
+Wolf => Decoder0.IN3
+
+

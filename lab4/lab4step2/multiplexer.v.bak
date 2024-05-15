@@ -1,0 +1,11 @@
+module multiplexer (E, F, M, AC);
+
+input E;
+input F;
+input M;
+output AC;
+// {{ALTERA_IO_END}} DO NOT REMOVE THIS LINE!
+
+assign AC=(((~M)&E)|(M&F));
+
+endmodule
